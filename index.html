@@ -9,13 +9,13 @@
 	<!-- Адаптивная верстка -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- Styles -->
-	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+			<!-- Styles -->
+	<!-- Swiper -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="./css/main.css">
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet"> -->
-	<!-- <link rel="stylesheet" href="./fonts/notoserif/notoserif.css" /> -->
-	<link rel="stylesheet" href="./fonts/als-rubl/als-rubl.css" />
-	<!-- FavIcons -->
+	<!-- Fonts -->	
+	<link rel="stylesheet" href="./fonts/als-rubl/als-rubl.css" />	
+			<!-- FavIcons -->
 	<link rel="shortcut icon" href="./img/favicons/favicon-48x48.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png" />
 
@@ -52,40 +52,41 @@
 	<!-- Slider -->
 	<div class="slider">
 		<div class="container">
-			<!-- Owl Carousel -->
-			<div id="top-slider" class="owl-carousel">
-				<!-- Slide 1 -->
-				<div class="slider__row">
-					<div class="slider__col">
-						<div class="slider__title">Rate for freelancers<br> and small sites</div>
-						<p class="slider__subtitle">Submit your portfolio and client sites. Reliable<br /> servers, responsive
-							technical support.</p>
-					</div>
+			<div class="slider__swiper swiper-container">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+							<!-- Slides -->
+					<!-- Slide 1 -->
+					<!-- <di class="slider__row"> -->
+						<div class="slider__col swiper-slide">
+							<div class="slider__title">Rate for freelancers<br> and small sites</div>
+							<p class="slider__subtitle">Submit your portfolio and client sites. Reliable<br /> servers, responsive technical support.</p>
+						</div>										
+						<!-- / Slide 1 -->
+						<!-- Slide 2 -->				
+						<div class="slider__col swiper-slide">
+							<div class="slider__title">Do you need hosting for your startup?<br />
+								You are in the right place!</div>
+							<p class="slider__subtitle">Start with a dedicated startup plan.<br /> Increase power if necessary.</p>
+						</div>					
+						<!-- / Slide 2 -->
+						<!-- Slide 3 -->					
+						<div class="slider__col swiper-slide">
+							<div class="slider__title">Reliable platform for<br /> high-load projects</div>
+							<p class="slider__subtitle">Super powerful servers, instant scalability,<br /> flexible configuration.</p>
+						</div>
+						<!-- / Slide 3 -->
+					<!-- </div> -->
+					<!-- <div class="swiper-pagination"></div>
+					<div class="swiper-pagination"></div>						 
+					<div class="swiper-pagination"></div>										  -->
 				</div>
-				<!-- / Slide 1 -->
-				<!-- Slide 2 -->
-				<div class="slider__row">
-					<div class="slider__col">
-						<div class="slider__title">Do you need hosting for your startup?<br />
-							You are in the right place!</div>
-						<p class="slider__subtitle">Start with a dedicated startup plan.<br /> Increase power if necessary.</p>
-					</div>
-				</div>
-				<!-- / Slide 2 -->
-				<!-- Slide 3 -->
-				<div class="slider__row">
-					<div class="slider__col">
-						<div class="slider__title">Reliable platform for<br /> high-load projects</div>
-						<p class="slider__subtitle">Super powerful servers, instant scalability,<br /> flexible configuration.</p>
-					</div>
-				</div>
-				<!-- / Slide 3 -->
-
-			</div>
-			<!-- / Owl Carousel -->
+								
+			</div>			
+			<!-- / Slider -->
 		</div>
 	</div>
-	<!-- / Slider -->
+	
 
 	<!-- Benefits -->
 	<section id="benefits" class="benefits">
@@ -245,35 +246,37 @@
 								<li>100 Database</li>
 								<li>Unlimited Users</li>
 							</ul>
-							<button class="button">
-								try
-							</button>
 						</div>
-					</div>
-					<!-- /card 2 -->
-					<!-- card 3 -->
-					<div class="prices__col">
-						<div class="prices__item item">
-							<header class="item__title">
-								high-load
-							</header>
-							<div class="item__price">~6900c</div>
-							<div class="item__period">payment per month</div>
-							<div class="item__list">
-								<ul>
-									<li>1000 GB Disk Space</li>
-									<li>∞ Sub Domains</li>
-									<li>∞ Database</li>
-									<li>Unlimited Users</li>
-								</ul>
-								<button class="button">
-									start
-								</button>
-							</div>
-						</div>
-						<!-- /card 3 -->
+						<button class="button">
+							try
+						</button>
 					</div>
 				</div>
+				<!-- /card 2 -->
+				<!-- card 3 -->
+				<div class="prices__col">
+					<div class="prices__item item">
+						<header class="item__title">
+							high-load
+						</header>
+						<div class="item__price">~6900c</div>
+						<div class="item__period">payment per month</div>
+						<div class="item__list">
+							<ul>
+								<li>1000 GB Disk Space</li>
+								<li>∞ Sub Domains</li>
+								<li>∞ Database</li>
+								<li>Unlimited Users</li>
+							</ul>
+						</div>
+						<button class="button">
+							start
+						</button>
+					</div>
+				</div>
+				<!-- /card 3 -->
+			</div>
+		</div>
 	</section>
 	<!-- / Prices -->
 	<!-- Footer -->
@@ -321,7 +324,7 @@
 	<script src="./libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script> -->
 
 	<!-- Vendor Scripts -->
-	<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 	<!-- User script -->
 	<script src="./js/main.js"></script>
