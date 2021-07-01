@@ -1,9 +1,11 @@
 .navigation {
+	position: relative;
 	display: flex;
 	align-items: center;
 
 	height: 67px;
 	background-color: #38383a;
+	box-shadow: 0px 5px 10px 0px #2a496d;		
 
 	&__list {
 		display: flex;

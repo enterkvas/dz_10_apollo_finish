@@ -1,15 +1,14 @@
 // Инициализация Swiper
-new Swiper('.slider__swiper', {
-	// Стрелки:
-	/*
+new Swiper('.slider-swiper', {
+	// Стрелки:	
 	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev'
+		nextEl: '.button--next',
+		prevEl: '.button--prev'
 	},
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	},
-	*/
+	// Буллеты 
+	// pagination: {
+	// 	el: '.swiper-pagination',
+	// 	clickable: true,
+	// },	
 	slidesPerView: 1,
 });

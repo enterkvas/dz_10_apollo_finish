@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<!-- Styles -->
-	<!-- Swiper -->
+	<!-- Swiper -->	
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="./css/main.css">
 	<!-- Fonts -->	
@@ -18,6 +18,7 @@
 			<!-- FavIcons -->
 	<link rel="shortcut icon" href="./img/favicons/favicon-48x48.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png" />
+
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -52,41 +53,34 @@
 	<!-- Slider -->
 	<div class="slider">
 		<div class="container">
-			<div class="slider__swiper swiper-container">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper">
-							<!-- Slides -->
-					<!-- Slide 1 -->
-					<!-- <di class="slider__row"> -->
-						<div class="slider__col swiper-slide">
-							<div class="slider__title">Rate for freelancers<br> and small sites</div>
-							<p class="slider__subtitle">Submit your portfolio and client sites. Reliable<br /> servers, responsive technical support.</p>
-						</div>										
-						<!-- / Slide 1 -->
-						<!-- Slide 2 -->				
-						<div class="slider__col swiper-slide">
-							<div class="slider__title">Do you need hosting for your startup?<br />
-								You are in the right place!</div>
-							<p class="slider__subtitle">Start with a dedicated startup plan.<br /> Increase power if necessary.</p>
-						</div>					
-						<!-- / Slide 2 -->
-						<!-- Slide 3 -->					
-						<div class="slider__col swiper-slide">
-							<div class="slider__title">Reliable platform for<br /> high-load projects</div>
-							<p class="slider__subtitle">Super powerful servers, instant scalability,<br /> flexible configuration.</p>
-						</div>
-						<!-- / Slide 3 -->
-					<!-- </div> -->
-					<!-- <div class="swiper-pagination"></div>
-					<div class="swiper-pagination"></div>						 
-					<div class="swiper-pagination"></div>										  -->
+			<!-- Слайдер -->		
+			<div class="slider-swiper swiper-container">			
+				<div class="slider-swiper__wrapper swiper-wrapper">				
+					<div class="slider-swiper__col swiper-slide">
+						<div class="slider-swiper__title">Rate for freelancers<br> and small sites</div>
+						<p class="slider-swiper__subtitle">Submit your portfolio and client sites. Reliable<br /> servers, responsive technical support.</p>
+					</div>
+					<div class="slider-swiper__col swiper-slide">
+						<div class="slider-swiper__title">Do you need hosting for your startup?<br />
+							You are in the right place!</div>
+						<p class="slider-swiper__subtitle">Start with a dedicated startup plan.<br /> Increase power if necessary.</p>
+					</div>
+					<div class="slider-swiper__col swiper-slide">
+						<div class="slider-swiper__title">Reliable platform for<br /> high-load projects</div>
+						<p class="slider-swiper__subtitle">Super powerful servers, instant scalability,<br /> flexible configuration.</p>
+					</div>																						
 				</div>
-								
+				<!-- Добавляем если нам нужны стрелки управления -->
+				<div class="slider-swiper__buttons">
+					<div class="button--prev"></div>
+					<div class="button--next"></div>
+				</div>				
+				<!-- Добавляем если нам нужна пагинация -->
+				<div class="swiper-pagination"></div>				
 			</div>			
 			<!-- / Slider -->
 		</div>
-	</div>
-	
+	</div>	
 
 	<!-- Benefits -->
 	<section id="benefits" class="benefits">
