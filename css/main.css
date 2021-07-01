@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
-* {
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   padding: 0;
   margin: 0;
   border: 0;
@@ -60,10 +60,6 @@ ul, ol, li {
   list-style: none;
 }
 
-img {
-  vertical-align: top;
-}
-
 .container {
   margin: 0 auto;
   padding: 0 15px 0 15px;
@@ -82,6 +78,67 @@ img {
   font-weight: 700;
   letter-spacing: -0.02em;
   color: #333333;
+}
+
+.benefits {
+  position: relative;
+  padding-top: 57px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.benefits__title {
+  margin-bottom: 52px;
+}
+
+.benefits__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+
+.benefits__col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  padding: 0 15px;
+}
+
+.item-benefits__img {
+  height: 110px;
+  margin-bottom: 23px;
+}
+
+.item-benefits__img--pt5 {
+  padding-top: 7px;
+}
+
+.item-benefits__title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.item-benefits__text {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.benefits::after {
+  display: block;
+  position: absolute;
+  content: '';
+  bottom: 0;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  opacity: 0.32;
 }
 
 .logo {

@@ -1,1 +1,56 @@
+.benefits {
+	position: relative;
+	padding-top: 57px;
+	padding-bottom: 70px;
+	text-align: center;
 
+	&__title {
+		margin-bottom: 52px;
+	}
+	&__row {
+		display: flex;
+		margin: 0 -15px;		
+	}
+	&__col {
+		flex: 0 0 25%;
+		padding: 0 15px;
+	}
+}
+.item-benefits {
+	&__img {
+		height: 110px;
+		margin-bottom: 23px;
+
+		&--pt5 {			
+			padding-top: 7px;
+		}
+	}
+	// &__body {
+	// 	font-family: 'Noto Sans', sans-serif;
+	// }
+	&__title {
+		font-family: 'Noto Sans', sans-serif;		
+		font-size: 22px;
+		line-height: 28px;
+		font-weight: 700;
+		color: #333333;
+		margin-bottom: 16px;
+	}
+	&__text {
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 400;
+		color: #777777;
+	}
+}
+
+.benefits::after {
+	display: block;
+	position: absolute;	
+	content: '';
+	bottom: 0;  
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	opacity: 0.32;	
+}
