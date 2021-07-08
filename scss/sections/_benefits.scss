@@ -8,26 +8,31 @@
 		margin-bottom: 52px;
 	}
 	&__row {
-		display: flex;
-		margin: 0 -15px;		
+		// display: -ms-inline-flexbox;
+		// display: inline-flex;
+		display: flex;				
+		margin: 0 -15px;				
 	}
 	&__col {
-		flex: 0 0 25%;
+		// flex: 0 0 25%;
 		padding: 0 15px;
+		flex: 1 1 25%;
 	}
 }
 .item-benefits {
-	&__img {
+	&__img {		
 		height: 110px;
 		margin-bottom: 23px;
 
-		&--pt5 {			
-			padding-top: 7px;
+		&--pt10 {			
+			padding-top: 10px;
+			// display: flex;
+			// justify-content: center;
+			// align-items: center;
+
 		}
 	}
-	// &__body {
-	// 	font-family: 'Noto Sans', sans-serif;
-	// }
+	
 	&__title {
 		font-family: 'Noto Sans', sans-serif;		
 		font-size: 22px;
@@ -43,14 +48,15 @@
 		font-weight: 400;
 		color: #777777;
 	}
+	
 }
 
 .benefits::after {
 	display: block;
 	position: absolute;	
-	content: '';
-	bottom: 0;  
+	content: '';	  
 	border-bottom: 1px solid #ccc;
 	width: 100%;
-	opacity: 0.32;	
+	opacity: 0.32;
+	bottom: 0;	
 }

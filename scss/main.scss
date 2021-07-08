@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 @import "base/_base";
 @import "base/_null-styles";
+
 @import "blocks/_gridLayout";
 @import "blocks/_prices-col";
-@import "blocks/title";
+@import "blocks/_heading";
+
 @import "sections/_benefits";
 @import "sections/_footer";
 @import "sections/_logo";
 @import "sections/_navigation";
-@import "sections/_service-description";
+@import "sections/_service-description/service-description_freelance";
+@import "sections/_service-description/service-description_startup";
 @import "sections/_slider";
 
 // font-family: 'Noto Sans', sans-serif;

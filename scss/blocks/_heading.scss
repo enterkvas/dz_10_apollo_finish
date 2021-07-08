@@ -1,0 +1,35 @@
+.heading {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	color: #333333;
+
+	&--number::before {
+		position: absolute;
+		display: block;
+		content: '0';
+		line-height: 1;		
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16px;
+		font-weight: 700;
+		color: #fff;
+		width: 26px;
+		height: 26px;
+		background-color: #ffc80a;
+		border-radius: 13px;
+		top: -20px;
+		left: -32px;
+		padding-top: 6px;		
+	}
+	&--number-1::before {
+		content: '1';
+		padding-left: 10px;
+	}
+	&--number-2::before {
+		content: '2';
+		padding-left: 9px;
+	}
+}

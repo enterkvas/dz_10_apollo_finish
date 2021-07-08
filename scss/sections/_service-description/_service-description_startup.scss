@@ -1,0 +1,42 @@
+.startup {	
+	position: relative;
+
+	&::after {
+		content: '';
+		display: block;
+		position:absolute;
+		border-bottom: 1px solid #ccc;
+		width: 100%;
+		opacity: 0.32;
+		// bottom: -100px;		
+	}
+}
+
+
+.service-description {	
+	
+	&__img-rocket {
+		position: relative;
+		margin-bottom: 37px;
+	}
+	&__img-rocket img {		
+		// margin-left: 127px;
+		position: absolute;
+		left: 50px;
+		top: 0;				
+	}
+}
+// .service-description__col {
+// }
+// .service-description__body {
+// }
+// .service-description__title {
+// }
+// .title {
+// }
+// .title--number {
+// }
+// .title--number-2 {
+// }
+// .service-description__text {
+// }
