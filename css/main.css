@@ -129,9 +129,9 @@ ul, ol, li {
 
 .benefits__col {
   padding: 0 15px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 25%;
-          flex: 1 1 25%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
 }
 
 .item-benefits__img {
@@ -245,6 +245,7 @@ ul, ol, li {
 
 .freelance {
   position: relative;
+  padding-top: 70px;
 }
 
 .freelance::after {
@@ -254,10 +255,7 @@ ul, ol, li {
   border-bottom: 1px solid #ccc;
   width: 100%;
   opacity: 0.32;
-}
-
-.service-description {
-  padding-top: 70px;
+  bottom: -36px;
 }
 
 .service-description__row {
@@ -272,10 +270,17 @@ ul, ol, li {
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
   padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.service-description__img-tablet {
+  position: relative;
 }
 
 .service-description__img-tablet img {
-  margin-left: -50px;
+  position: absolute;
+  right: 80px;
+  max-width: 100%;
 }
 
 .service-description__body {
@@ -308,6 +313,7 @@ ul, ol, li {
 
 .startup {
   position: relative;
+  padding-top: 105px;
 }
 
 .startup::after {
@@ -317,17 +323,27 @@ ul, ol, li {
   border-bottom: 1px solid #ccc;
   width: 100%;
   opacity: 0.32;
+  bottom: -45px;
 }
 
 .service-description__img-rocket {
   position: relative;
-  margin-bottom: 37px;
 }
 
 .service-description__img-rocket img {
   position: absolute;
-  left: 50px;
-  top: 0;
+  left: -15px;
+  max-width: 100%;
+}
+
+.service-description__col {
+  position: relative;
+}
+
+.m-left {
+  width: 700px;
+  padding-left: 101px;
+  padding-right: 22px;
 }
 
 .slider {

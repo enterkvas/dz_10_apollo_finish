@@ -1,6 +1,6 @@
 .freelance {
 	position: relative;
-
+	padding-top: 70px;
 	&::after {
 		content: '';
 		display: block;
@@ -8,12 +8,11 @@
 		border-bottom: 1px solid #ccc;
 		width: 100%;
 		opacity: 0.32;
-		// bottom: 0px;
+		bottom: -36px;		
 	}
 }
 
-.service-description {
-	padding-top: 70px;
+.service-description {	
 	
 	&__row {
 		display: flex;
@@ -25,10 +24,16 @@
 	&__col {
 		flex: 1 1 50%;
 		padding: 0 15px;
+		margin-bottom: 50px;
 		// flex: 1 1 calc((100% / 2) - 15px);		
+	}
+	&__img-tablet {
+		position: relative;
 	}	
-	&__img-tablet img {		
-		margin-left: -50px;
+	&__img-tablet img {
+		position: absolute;
+		right: 80px;	
+		max-width: 100%;
 	}
 	&__body {
 		padding-top: 20px;
@@ -54,7 +59,8 @@
 		height: 40px;
 		background-image: url('../../img/icons/arrow-orange.png');
 		background-repeat: no-repeat;
-		background-position: left top;		
+		background-position: left top;
+		// padding-bottom: 50px;		
 	}
 	
 }

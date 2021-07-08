@@ -1,6 +1,6 @@
 .startup {	
 	position: relative;
-
+	padding-top: 105px;
 	&::after {
 		content: '';
 		display: block;
@@ -8,27 +8,40 @@
 		border-bottom: 1px solid #ccc;
 		width: 100%;
 		opacity: 0.32;
-		// bottom: -100px;		
+		bottom: -45px;		
 	}
 }
 
 
-.service-description {	
+.service-description {
+	
+	
 	
 	&__img-rocket {
 		position: relative;
-		margin-bottom: 37px;
+		// margin-bottom: 37px;
 	}
 	&__img-rocket img {		
 		// margin-left: 127px;
 		position: absolute;
-		left: 50px;
-		top: 0;				
+		left: -15px;
+		max-width: 100%;
+		// top: 0;
+		// z-index: 5;				
 	}
 }
-// .service-description__col {
-// }
-// .service-description__body {
+.service-description__col {
+	position: relative;
+}
+.m-left {
+	// padding-left: 50px;
+	// position: absolute;
+	// left: 100px;
+	width: 700px;
+    padding-left: 101px;
+    padding-right: 22px;
+}
+// .service-description__body {// 	
 // }
 // .service-description__title {
 // }
