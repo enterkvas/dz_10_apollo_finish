@@ -1,6 +1,6 @@
 .startup {	
 	position: relative;
-	padding-top: 105px;
+	padding-top: 155px;
 	&::after {
 		content: '';
 		display: block;
@@ -8,48 +8,29 @@
 		border-bottom: 1px solid #ccc;
 		width: 100%;
 		opacity: 0.32;
-		bottom: -45px;		
+		bottom: -94px;		
 	}
 }
-
 
 .service-description {
 	
-	
+	&__col-55 {
+		flex: 1 1 55%;
+		padding: 0 15px;
+		margin-left: 103px;
+	}
+	&__col-45 {
+		flex: 1 1 45%;
+		padding: 0 15px;
+	}
 	
 	&__img-rocket {
-		position: relative;
-		// margin-bottom: 37px;
+		position: relative;		
 	}
 	&__img-rocket img {		
-		// margin-left: 127px;
 		position: absolute;
-		left: -15px;
-		max-width: 100%;
-		// top: 0;
-		// z-index: 5;				
+		left: 25px;
+		max-width: 100%;						
 	}
+
 }
-.service-description__col {
-	position: relative;
-}
-.m-left {
-	// padding-left: 50px;
-	// position: absolute;
-	// left: 100px;
-	width: 700px;
-    padding-left: 101px;
-    padding-right: 22px;
-}
-// .service-description__body {// 	
-// }
-// .service-description__title {
-// }
-// .title {
-// }
-// .title--number {
-// }
-// .title--number-2 {
-// }
-// .service-description__text {
-// }

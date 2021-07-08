@@ -7,18 +7,17 @@
 	&__title {
 		margin-bottom: 52px;
 	}
-	&__row {
-		// display: -ms-inline-flexbox;
-		// display: inline-flex;
+	&__row {		
 		display: flex;				
 		margin: 0 -15px;				
 	}
 	&__col {
-		// flex: 0 0 25%;
+		flex: 0 1 25%;
 		padding: 0 15px;
 		flex: 0 1 25%;
 	}
 }
+
 .item-benefits {
 	&__img {		
 		height: 110px;
@@ -26,10 +25,6 @@
 
 		&--pt10 {			
 			padding-top: 10px;
-			// display: flex;
-			// justify-content: center;
-			// align-items: center;
-
 		}
 	}
 	
@@ -47,8 +42,7 @@
 		line-height: 24px;
 		font-weight: 400;
 		color: #777777;
-	}
-	
+	}	
 }
 
 .benefits::after {
