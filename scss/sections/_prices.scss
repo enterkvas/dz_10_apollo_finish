@@ -1,0 +1,30 @@
+.prices {
+	padding-top: 154px;
+	padding-bottom: 90px;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+
+	&__title {
+		margin-bottom: 20px;
+	}
+	&__text {
+		max-width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 400;
+		color: #777777;
+		word-spacing: 2px;		
+	}
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__col {		
+		flex: 0 1 360px;		
+	}	
+}

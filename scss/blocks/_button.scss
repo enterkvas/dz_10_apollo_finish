@@ -1,0 +1,27 @@
+.button {
+	display: inline-block;
+	width: 150px;
+	height: 42px;
+	background-color: #252525;
+	box-shadow: 0px 8px 16px 0px #ababab;
+	color: #fff;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	border-radius: 22px;
+	padding-top: 14px;
+	margin-bottom: 13px;
+
+	&:hover, &:active, &:focus {
+		background-color: #ffc80a;
+		box-shadow: 0px 8px 16px 0px #e9deb9;
+	}
+	&--orange {
+		background-color: #ffc80a;
+		box-shadow: 0px 8px 16px 0px #e9deb9;
+	}
+}
+
