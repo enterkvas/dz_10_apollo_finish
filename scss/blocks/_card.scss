@@ -1,5 +1,5 @@
 .card {
-	padding: 34px 25px;
+	padding: 34px 25px 47px;
 	background-color: #fff;
 	border-radius: 7px;	
 	color: #242526;
@@ -34,7 +34,7 @@
 }	
 	
 ul.card__list {
-	font-size: 14px;
+	font-size: $fz;
 	line-height: 1.5;
 	margin-bottom: 43px;	
 

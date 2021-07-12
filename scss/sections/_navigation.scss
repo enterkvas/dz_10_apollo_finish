@@ -12,7 +12,7 @@
 		justify-content: space-between;
 
 		font-family: 'Noto Sans', sans-serif;
-		font-size: 14px;
+		font-size: $fz;
 		line-height: 26px;
 		font-weight: 700;
 		text-transform: uppercase;
@@ -27,12 +27,12 @@
 			}
 			& .selected {
 				@media (min-width: 992px) {
-					color: #ffcc00; 
+					color: $orange; 
 				}
 			}
 		}
 		& li a:hover {
-			color: #ffcc00;
+			color: $orange;
 		}		
 	}
 }

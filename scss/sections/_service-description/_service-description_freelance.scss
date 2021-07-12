@@ -45,10 +45,10 @@
 	}
 	&__text p {
 		font-family: 'Noto Sans', sans-serif;
-		font-size: 14px;
+		font-size: $fz;
 		line-height: 24px;
 		font-weight: 400;
-		color: #777777;
+		color: $gray;
 		margin-bottom: 22px;		
 	}
 	&__button-arrow {

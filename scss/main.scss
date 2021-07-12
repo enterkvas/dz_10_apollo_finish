@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-@import "base/_base";
 @import "base/_null-styles";
 @import "base/_gridLayout";
+@import "base/_variables";
 
 @import "blocks/_heading";
 @import "blocks/_card";
