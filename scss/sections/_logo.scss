@@ -2,7 +2,8 @@
 	text-align: center;
 	padding-top: 54px;
 	padding-bottom: 40px;
-	font-family: 'Noto Sans', sans-serif;	
+	font-family: 'Noto Sans', sans-serif;
+	background-color: green;	
 
 	&__title {		
 		font-size: 38px;
@@ -14,10 +15,24 @@
 	}
 	&__subtitle {		
 		font-size: 16px;
-		line-height: 32px;
+		line-height: 2;
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 12.3px;
 		color: #a1bbd9;		
 	}
+	
+	@media (max-width: 1199px) {		
+			padding: 34px 0;
+
+			&__title {
+				font-size: 33px;
+				letter-spacing: 10.5px;
+			}
+			&__subtitle {
+				font-size: 14px;
+				letter-spacing: 10.8px;
+			}					
+	}		
 }
+

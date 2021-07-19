@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
-h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   padding: 0;
   margin: 0;
   border: 0;
@@ -62,13 +62,25 @@ ul, ol, li {
 }
 
 .container {
+  max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1199px) {
   .container {
-    width: 1140px;
+    max-width: 728px;
   }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: none;
+  }
+}
+
+nav.navigation, .slider, .benefits, .freelance, .startup, .prices, .footer {
+  display: none;
 }
 
 .heading {
@@ -349,6 +361,7 @@ ul.card__list li::before {
   padding-top: 54px;
   padding-bottom: 40px;
   font-family: 'Noto Sans', sans-serif;
+  background-color: green;
 }
 
 .logo__title {
@@ -362,11 +375,25 @@ ul.card__list li::before {
 
 .logo__subtitle {
   font-size: 16px;
-  line-height: 32px;
+  line-height: 2;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 12.3px;
   color: #a1bbd9;
+}
+
+@media (max-width: 1199px) {
+  .logo {
+    padding: 34px 0;
+  }
+  .logo__title {
+    font-size: 33px;
+    letter-spacing: 10.5px;
+  }
+  .logo__subtitle {
+    font-size: 14px;
+    letter-spacing: 10.8px;
+  }
 }
 
 .navigation {
