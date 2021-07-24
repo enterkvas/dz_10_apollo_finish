@@ -62,25 +62,27 @@ ul, ol, li {
 }
 
 .container {
-  max-width: 1170px;
+  width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 @media (max-width: 1199px) {
   .container {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
     max-width: 728px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container {
     max-width: none;
   }
-}
-
-nav.navigation, .slider, .benefits, .freelance, .startup, .prices, .footer {
-  display: none;
 }
 
 .heading {
@@ -361,7 +363,6 @@ ul.card__list li::before {
   padding-top: 54px;
   padding-bottom: 40px;
   font-family: 'Noto Sans', sans-serif;
-  background-color: green;
 }
 
 .logo__title {
@@ -423,6 +424,13 @@ ul.card__list li::before {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 6px;
+}
+
+@media (max-width: 991px) {
+  .navigation__list {
+    font-size: 12px;
+    letter-spacing: 4px;
+  }
 }
 
 .navigation__list li {
