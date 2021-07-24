@@ -18,8 +18,7 @@
 		text-transform: uppercase;
 		letter-spacing: 6px;		
 		
-		@media(max-width: 991px) {
-			// display: none;
+		@media(max-width: 991px) {			
 			font-size: 12px;
 			letter-spacing: 4px;
 		}

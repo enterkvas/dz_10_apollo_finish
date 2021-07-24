@@ -23,6 +23,10 @@
 		letter-spacing: 0.5px;
 		color: #ffffff;
 		margin-bottom: 18px;
+
+		@media(max-width: 991px) {			
+			font-size: 26px;			
+		}
 	}
 	&__subtitle {
 		font-family: 'Noto Serif', serif;
@@ -30,6 +34,10 @@
 		line-height: 32px;
 		font-weight: 400;
 		color: #cddfe0;
+
+		@media(max-width: 991px) {			
+			font-size: 18px;			
+		}
 	}
 }
 

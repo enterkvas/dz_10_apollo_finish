@@ -599,12 +599,24 @@ ul.card__list li::before {
   margin-bottom: 18px;
 }
 
+@media (max-width: 991px) {
+  .slider-swiper__title {
+    font-size: 26px;
+  }
+}
+
 .slider-swiper__subtitle {
   font-family: 'Noto Serif', serif;
   font-size: 22px;
   line-height: 32px;
   font-weight: 400;
   color: #cddfe0;
+}
+
+@media (max-width: 991px) {
+  .slider-swiper__subtitle {
+    font-size: 18px;
+  }
 }
 
 /* Стрелки(кастомные) */
