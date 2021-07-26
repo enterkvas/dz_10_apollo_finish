@@ -7,6 +7,9 @@
 	letter-spacing: -0.5px;
 	color: #333333;
 
+	@media (max-width: 991px) {
+		font-size: 28px;
+	}
 	&--number::before {
 		position: absolute;
 		display: block;
