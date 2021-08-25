@@ -1,6 +1,9 @@
 .freelance {
 	position: relative;
 	padding-top: 70px;
+	// @media (max-width: 991px) {
+	// 	padding-top: 80px;
+	// }
 	
 	&::after {
 		content: '';
@@ -18,14 +21,13 @@
 	&__row {
 		display: flex;
 		margin: 0 -15px;			
-	}
-	&__col {
-		flex: 1 1 50%;
-		padding: 0 15px;				
-	}
+	}	
 	&__col {
 		flex: 1 1 50%;
 		padding: 0 15px;
+		// @media (max-width: 991px) {
+		// 	padding: 0 10px;
+		// }	
 	}
 	&__img-tablet {
 		position: relative;
@@ -34,10 +36,17 @@
 		position: absolute;
 		right: 80px;	
 		max-width: 100%;
+		// @media (max-width: 991px) {
+		// 	right: 0px;
+		// }
 	}
 	&__body {
 		padding-top: 17px;		
 		word-spacing: 2px;
+		// @media (max-width: 991px) {
+		// 	padding-top: 0px;
+		// 	padding-left: 13px;
+		// }
 	}
 	&__title {	
 		margin-bottom: 20px;

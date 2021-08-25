@@ -35,21 +35,28 @@
 	</section>
 	<!-- / Logo  -->
 
-	<!-- Navigation -->
-	<nav class="navigation">
+	<!-- menu -->
+	<div class="navigation">				
 		<div class="container">
-			<div class="navigation__toggle-button"></div>
-			<ul class="navigation__list">
-				<li><a class="selected" href="#main">main</a></li>
-				<li><a href="#benefits">how-we-work</a></li>
-				<li><a href="#freelance">freelancers</a></li>
-				<li><a href="#startup">startups</a></li>
-				<li><a href="#prices">prices</a></li>
-				<li><a href="#footer">contacts</a></li>
-			</ul>
+			<div class="navigation__menu menu">
+				<div class="menu__burger">
+					<div class="menu__burger-text">навигация</div>
+					<div class="menu__burger-button"><span></span></div>
+				</div>							
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li><a data-goto="#main" href="#" class="menu__link selected">main</a></li>
+						<li><a data-goto="#how-we-work" href="#" class="menu__link">how-we-work</a></li>
+						<li><a data-goto="#freelancers" href="#" class="menu__link">freelancers</a></li>
+						<li><a data-goto="#startups" href="#" class="menu__link">startups</a></li>
+						<li><a data-goto="#prices" href="#" class="menu__link">prices</a></li>
+						<li><a data-goto="#contacts" href="#" class="menu__link">contacts</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
-	</nav>
-	<!-- / Navigation -->
+	</div>
+	<!-- / menu -->
 
 	<!-- Slider -->
 	<div class="slider">
@@ -88,7 +95,7 @@
 	<!-- / Slider -->
 
 	<!-- Benefits -->
-	<section id="benefits" class="benefits">
+	<section class="benefits" id="how-we-work">
 		<div class="container">
 			<h2 class="benefits__title heading">How we work</h2>
 			<div class="benefits__row">
@@ -147,7 +154,7 @@
 
 	<!-- Service-description -->
 	<!-- Freelance -->
-	<div id="freelance" class="freelance">
+	<div class="freelance" id="freelancers">
 		<div class="container service-description">
 			<div class="service-description__row">
 				<div class="service-description__col">
@@ -166,18 +173,19 @@
 							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
 								pariatur.
 							</p>
-						</div>
+						</div>						
 					</div>
 					<a href="#">
 						<div class="service-description__button-arrow"></div>
-					</a>
+					</a>					
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- / Freelance -->
 	<!-- Startup -->
-	<div id="startup" class="startup">
+	<div class="startup">
+	<div  id="startups"></div>
 		<div class="container service-description">
 			<div class="service-description__row">
 				<div class="service-description__col-55">
@@ -209,7 +217,8 @@
 	<!-- / Service-description -->
 
 	<!-- Prices -->
-	<section id="prices" class="prices">
+	<section class="prices">
+	<div id="prices"></div>
 		<div class="container">
 			<article>
 				<header class="header">
@@ -284,7 +293,7 @@
 	</section>
 	<!-- / Prices -->
 	<!-- Footer -->
-	<footer id="footer" class="footer">
+	<footer class="footer" id="contacts">
 		<div class="container">
 			<nav class="footer__row">
 				<div class="footer__col">

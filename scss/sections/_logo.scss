@@ -2,7 +2,7 @@
 	text-align: center;
 	padding-top: 54px;
 	padding-bottom: 40px;
-	font-family: 'Noto Sans', sans-serif;		
+	font-family: 'Noto Sans', sans-serif;			
 
 	&__title {		
 		font-size: 38px;
@@ -22,7 +22,7 @@
 	}
 	
 	@media (max-width: 1199px) {		
-			padding: 34px 0;
+			padding: 34px 0;			
 
 			&__title {
 				font-size: 33px;
@@ -32,6 +32,9 @@
 				font-size: 14px;
 				letter-spacing: 10.8px;
 			}					
+	}
+	@media (max-width: 991px) {
+		padding-top: 100px;
 	}		
 }
 
