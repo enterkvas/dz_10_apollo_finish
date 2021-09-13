@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import "base/null-styles.css";
+@import "base/gridLayout.css";
+@import "base/variables.css";
+@import "base/base.css";
+
+@import "blocks/heading.css";
+@import "blocks/card.css";
+@import "blocks/button.css";
+@import "blocks/burger.css";
+
+@import "sections/prices.css";
+@import "sections/benefits.css";
+@import "sections/footer.css";
+@import "sections/logo.css";
+@import "sections/navigation.css";
+@import "sections/service-description.css";
+@import "sections/slider.css";
+
+/* font-family: 'Noto Sans', sans-serif; */
+/* font-family: 'Noto Serif', serif; */

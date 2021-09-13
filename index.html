@@ -10,16 +10,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- Styles -->
+	<link rel="stylesheet" href="css/styles.css">
 	<!-- Swiper -->
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />	
 	<!-- Fonts -->
-	<link rel="stylesheet" href="./fonts/als-rubl/als-rubl.css" />
+	<link rel="stylesheet" href="fonts/als-rubl/als-rubl.css" />
 	<!-- FavIcons -->
-	<link rel="shortcut icon" href="./img/favicons/favicon-48x48.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png" />
-
-
+	<link rel="shortcut icon" href="img/favicons/favicon-48x48.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -30,8 +28,10 @@
 <body>
 	<!-- Logo  -->
 	<section class="logo" id="main">
-		<h1 class="logo__title">apollo 404</h1>
-		<div class="logo__subtitle">hosting company</div>
+		<div class="container">
+			<h1 class="logo__title">apollo 404</h1>
+			<div class="logo__subtitle">hosting company</div>
+		</div>
 	</section>
 	<!-- / Logo  -->
 
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- / menu -->
+	<!-- / menu -->	
 
 	<!-- Slider -->
 	<div class="slider">
@@ -151,145 +151,131 @@
 		</div>
 	</section>
 	<!-- / Benefits -->
+	
+	<!-- Freelance Hosting-->	
+	<div class="container service-description" id="freelancers">
+		<div class="service-description__row">
+			<div class="service-description__col">
+				<div class="service-description__img-tablet">
+					<img src="./img/images/tablet.png" alt="Picture of tablet">
+				</div>
+			</div>
+			<div class="service-description__col">
+				<div class="service-description__body">
+					<h2 class="service-description__title heading heading--number heading--number-1">Freelance hosting</h2>
+					<div class="service-description__text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+							pariatur.
+						</p>
+					</div>						
+				</div>
+				<a href="#">
+					<div class="service-description__button-arrow"></div>
+				</a>					
+			</div>
+		</div>
+	</div>	
+	<!-- / Freelance Hosting -->
 
-	<!-- Service-description -->
-	<!-- Freelance -->
-	<div class="freelance" id="freelancers">
-		<div class="container service-description">
-			<div class="service-description__row">
-				<div class="service-description__col">
-					<div class="service-description__img-tablet">
-						<img src="./img/images/tablet.png" alt="Picture of tablet">
+	<!-- Startup Hosting-->	
+	<div class="container service-description" id="startups">
+		<div class="service-description__row">
+			<div class="service-description__col-55">
+				<div class="service-description__body">
+					<h2 class="service-description__title heading heading--number heading--number-2">Tariff for startups</h2>
+					<div class="service-description__text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+							pariatur.
+						</p>
 					</div>
 				</div>
-				<div class="service-description__col">
-					<div class="service-description__body">
-						<h2 class="service-description__title heading heading--number heading--number-1">Freelance hosting</h2>
-						<div class="service-description__text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-								labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat.
-							</p>
-							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-								pariatur.
-							</p>
-						</div>						
-					</div>
-					<a href="#">
-						<div class="service-description__button-arrow"></div>
-					</a>					
+				<a href="#">
+					<div class="service-description__button-arrow"></div>
+				</a>
+			</div>
+			<div class="service-description__col-45">
+				<div class="service-description__img-rocket">
+					<img src="./img/images/rocket.png" alt="Picture of rocket">
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- / Freelance -->
-	<!-- Startup -->
-	<div class="startup">
-	<div  id="startups"></div>
-		<div class="container service-description">
-			<div class="service-description__row">
-				<div class="service-description__col-55">
-					<div class="service-description__body">
-						<h2 class="service-description__title heading heading--number heading--number-2">Tariff for startups</h2>
-						<div class="service-description__text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-								labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat.
-							</p>
-							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-								pariatur.
-							</p>
-						</div>
-					</div>
-					<a href="#">
-						<div class="service-description__button-arrow"></div>
-					</a>
-				</div>
-				<div class="service-description__col-45">
-					<div class="service-description__img-rocket">
-						<img src="./img/images/rocket.png" alt="Picture of rocket">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- / Startup -->
-	<!-- / Service-description -->
+	</div>	
+	<!-- / Startup Hosting-->	
 
 	<!-- Prices -->
-	<section class="prices">
-	<div id="prices"></div>
-		<div class="container">
-			<article>
-				<header class="header">
-					<h2 class="prices__title heading">Tariffs and cards</h2>
-					<p class="prices__text">Everyone that enters through Him is always safe and the person shall find pastures
-						for himself.</p>
-				</header>
-			</article>
-			<div class="prices__row">
-				<!-- card 1 -->
-				<div class="prices__col">
-					<div class="card">
-						<h3 class="card__type">
-							freelance
-						</h3>
-						<div class="card__price">590</div>
-						<div class="card__period">payment per month</div>
-						<ul class="card__list">
-							<li>10 GB Disk Space</li>
-							<li>5 Sub Domains</li>
-							<li>4 Databases</li>
-							<li>Unlimited Users</li>
-						</ul>
-						<a href="#" class="button">
-							start
-						</a>
-					</div>
+	<section class="container prices" id="prices">			
+		<h2 class="prices__title heading">Tariffs and cards</h2>
+		<p class="prices__text">Everyone that enters through Him is always safe and the person shall find pastures for himself.</p>				
+		<div class="prices__row">
+			<!-- card 1 -->
+			<div class="prices__col">
+				<div class="card">
+					<h3 class="card__type">
+						freelance
+					</h3>
+					<div class="card__price">590</div>
+					<div class="card__period">payment per month</div>
+					<ul class="card__list">
+						<li>10 GB Disk Space</li>
+						<li>5 Sub Domains</li>
+						<li>4 Databases</li>
+						<li>Unlimited Users</li>
+					</ul>
+					<a href="#" class="button">
+						start
+					</a>
 				</div>
-				<!-- /card 1 -->
-				<!-- card 2 -->
-				<div class="prices__col">
-					<div class="card">
-						<h3 class="card__type">
-							startup
-						</h3>
-						<div class="card__price">990</div>
-						<div class="card__period">payment per month</div>
-						<ul class="card__list">
-							<li>100 GB Disk Space</li>
-							<li>100 Sub Domains</li>
-							<li>100 Database</li>
-							<li>Unlimited Users</li>
-						</ul>
-						<a href="#" class="button">
-							try
-						</a>
-					</div>
-				</div>
-				<!-- /card 2 -->
-				<!-- card 3 -->
-				<div class="prices__col">
-					<div class="card">
-						<h3 class="card__type">
-							high-load
-						</h3>
-						<div class="card__price">~6900</div>
-						<div class="card__period">payment per month</div>
-						<ul class="card__list">
-							<li>1000 GB Disk Space</li>
-							<li>∞ Sub Domains</li>
-							<li>∞ Database</li>
-							<li>Unlimited Users</li>
-						</ul>
-						<a href="#" class="button">
-							start
-						</a>
-					</div>
-				</div>
-				<!-- /card 3 -->
 			</div>
-		</div>
+			<!-- /card 1 -->
+			<!-- card 2 -->
+			<div class="prices__col">
+				<div class="card">
+					<h3 class="card__type">
+						startup
+					</h3>
+					<div class="card__price">990</div>
+					<div class="card__period">payment per month</div>
+					<ul class="card__list">
+						<li>100 GB Disk Space</li>
+						<li>100 Sub Domains</li>
+						<li>100 Database</li>
+						<li>Unlimited Users</li>
+					</ul>
+					<a href="#" class="button">
+						try
+					</a>
+				</div>
+			</div>
+			<!-- /card 2 -->
+			<!-- card 3 -->
+			<div class="prices__col">
+				<div class="card">
+					<h3 class="card__type">
+						high-load
+					</h3>
+					<div class="card__price">~6900</div>
+					<div class="card__period">payment per month</div>
+					<ul class="card__list">
+						<li>1000 GB Disk Space</li>
+						<li>∞ Sub Domains</li>
+						<li>∞ Database</li>
+						<li>Unlimited Users</li>
+					</ul>
+					<a href="#" class="button">
+						start
+					</a>
+				</div>
+			</div>
+			<!-- /card 3 -->
+		</div>		
 	</section>
 	<!-- / Prices -->
 	<!-- Footer -->
@@ -333,9 +319,8 @@
 
 	<!-- Vendor Scripts -->
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
 	<!-- User script -->
-	<script src="./js/main.js"></script>
+	<script src="js/scripts.js"></script>
 
 </body>
 
