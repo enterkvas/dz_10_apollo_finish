@@ -1,0 +1,13 @@
+.container {	
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+}
+.container--mobile-no-padding {
+  margin-left: -15px;
+  margin-right: -15px;	
+}
+@media (min-width: 992px) {
+	.container--mobile-no-padding {
+		padding: 0 15px 0 15px;
+	}	
+}
