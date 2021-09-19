@@ -1,0 +1,21 @@
+.logo {
+	padding-top: 101px;
+	padding-bottom: 40px;
+	font-weight: 700;
+	text-transform: uppercase;	
+	outline: 1px solid #666;
+}
+.logo__header{
+	text-align: center;	
+	margin-left: 12px;
+}
+.logo__header--title {	
+	margin-bottom: 6px;	
+	font-size: 33px;	
+	letter-spacing: 0.32em;
+	color: #000;
+}
+.logo__header--subtitle {	
+	letter-spacing: 0.77em;
+	color: #a1bbd9;
+}
