@@ -1,4 +1,4 @@
-.slider, .footer, .benefits, .service-description, .prices {
+.footer, .service-description, .prices, .benefits {
 	display: none;
 }
 
@@ -8,4 +8,21 @@ html, body {
 	font-family: 'Noto Sans', serif, sans-serif;
 	font-size: var(--fz);
 	line-height: 1;
+}
+
+@media (min-width: 320px) {
+	.visible-mobile {
+		display: grid;
+	}
+	.visible-tablet {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.visible-tablet {
+		display: grid;
+	}
+	.visible-mobile {
+		display: none;
+	}
 }

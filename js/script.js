@@ -9,15 +9,22 @@ iconBurger.addEventListener("click", function(e) {
 });
 
 // Показ\Скрытие разных текстовок слайдера на разных разрешениях:
-// const w = document.body.clientWidth();
-// const visibleMobile = document.querySelector('.visible-mobile');
-// if (w < 992) {
-// 	navList.classList.remove('_active');	
-// }
-
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+// const w = document.body.clientWidth;
+// w = 200;
+const visibleMobiles = document.querySelectorAll('.visible-mobile');
+// visibleMobiles.forEach(visibleMobile => {
+// 	if (w < 768) {
+// 		visibleMobile;
+// 	}
+// });	
+console.log(visibleMobiles);
+console.log(w);
+console.log(h);
 
 // Инициализация Swiper:
-new Swiper('.slider-swiper', {
+const swiper = new Swiper('.slider-swiper', {
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev'
@@ -25,7 +32,10 @@ new Swiper('.slider-swiper', {
 	// Пагинация:
 	pagination: {
 		el: '.swiper-pagination',
-		// Буллеты:
-		clickable: true,
-	},
+	//Буллеты:	
+	clickable: true,
+},
+	slidesPerView: 1,
 });
+// Показ текстовок для mobile:
+// const textMobile = document.querySelectorAll('.')
