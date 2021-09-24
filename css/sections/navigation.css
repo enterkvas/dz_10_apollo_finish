@@ -20,14 +20,16 @@
 }
 .menu__list {	
 	position: relative;
+	height: 1px;
 	top: 0;
 	left: -150%;	
 	background-color: #35577d;
 	box-shadow: 0px 5px 10px 0px #2a496d;	
-	transition: left 0.3s ease 0s;	
+	transition: all 0.3s ease 0s;	
 }
 .menu__list._active {
 	left: 0;
+	height: 100%;
 }
 .menu__list li {	
 	border-bottom: 1px solid #496d95;
@@ -39,8 +41,7 @@
 .menu__list a {
 	display: block;
 	padding: 20px 0 20px 15px;
-	color: #fff;
-	/* cursor: pointer; */
+	color: #fff;	
 }
 .menu__burger {
 	display: flex;
@@ -51,8 +52,7 @@
 .menu__burger--button {
 	position: relative;		
 	width: 25px;
-	height: 20px;
-	/* cursor: pointer; */	
+	height: 20px;		
 }
 .menu__burger--button span, .menu__burger--button::before, .menu__burger--button::after  {
 	position: absolute;
