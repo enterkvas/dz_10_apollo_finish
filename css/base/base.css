@@ -1,4 +1,4 @@
-.footer, .service-description, .prices {
+.footer, .prices, .logo, .navigation, .slider {
 	display: none;
 }
 html, body {

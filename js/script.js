@@ -37,5 +37,3 @@ const swiper = new Swiper('.slider-swiper', {
 },
 	slidesPerView: 1,
 });
-// Показ текстовок для mobile:
-// const textMobile = document.querySelectorAll('.')

@@ -17,12 +17,7 @@
 	<link rel="stylesheet" href="fonts/als-rubl/als-rubl.css" />
 	<!-- FavIcons -->
 	<link rel="shortcut icon" href="img/favicons/favicon-48x48.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />	
 </head>
 
 <body>
@@ -35,7 +30,7 @@
 	</section>
 	<!-- / Logo  -->
 
-	<!-- menu -->
+	<!-- Navigation -->
 	<nav class="navigation">				
 		<div class="container">
 			<div class="navigation__menu menu">
@@ -54,12 +49,11 @@
 			</div>
 		</div>
 	</nav>
-	<!-- / menu -->	
+	<!-- / Navigation -->	
 	
 	<!-- Slider -->
-
 	<div class="slider">
-		<!-- Container -->
+		<!-- container -->
 		<div class="container">
 
 			<!-- Slider Swiper -->
@@ -131,7 +125,7 @@
 			</div>
 			<!-- / Slider Swiper -->
 		</div>
-		<!-- / Container -->
+		<!-- / container -->
 	</div>
 	<!-- / Slider -->
 
@@ -144,11 +138,9 @@
 				<div class="benefits__col">
 					<div class="benefits__item item">
 						<div class="item__row">
-							<div class="item__image">
-								<img src="./img/images/weather.jpg" alt="Picture weather">
-							</div>						
+							<div class="item__image item__image--weather"></div>					
 							<div class="item__body">
-								<h3 class="item__title">We work in any<br> weather</h3>
+								<div class="item__title">We work in any<br> weather</div>
 								<p class="item__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
 									doming id quod mazim.
 								</p>
@@ -160,11 +152,9 @@
 				<div class="benefits__col">
 					<div class="benefits__item item">
 						<div class="item__row">
-							<div class="item__image">
-								<img src="./img/images/graph.jpg" alt="Picture graph">
-							</div>						
+							<div class="item__image item__image--graph"></div>						
 							<div class="item__body">
-								<h3 class="item__title">We use nano<br> technologies</h3>
+								<div class="item__title">We use nano<br> technologies</div>
 								<p class="item__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
 									doming id quod mazim.
 								</p>
@@ -176,11 +166,9 @@
 				<div class="benefits__col">
 					<div class="benefits__item item">
 						<div class="item__row">
-							<div class="item__image">
-								<img src="./img/images/flipchart.jpg" alt="Picture flipchart">
-							</div>						
+							<div class="item__image item__image--flipchart"></div>				
 							<div class="item__body">
-								<h3 class="item__title">Quality standards<br> according to GOST</h3>
+								<div class="item__title">Quality standards<br> according to GOST</div>
 								<p class="benefits__item item__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
 									doming id quod mazim.
 								</p>
@@ -192,11 +180,9 @@
 				<div class="benefits__col">
 					<div class="benefits__item item">
 						<div class="item__row">
-							<div class="item__image">
-								<img src="./img/images/presentation.jpg" alt="Picture presentation">
-							</div>						
+							<div class="item__image item__image--presentation"></div>			
 							<div class="item__body">
-								<h3 class="benefits__item item__title">We are developing<br> rapidly</h3>
+								<div class="benefits__item item__title">We are developing<br> rapidly</div>
 								<p class="benefits__item item__text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
 									doming id quod mazim.
 								</p>
@@ -210,16 +196,16 @@
 	<!-- / Benefits -->
 	
 	<!-- Freelance Hosting-->	
-	<div class="container service-description" id="freelancers">
+	<div class="service-description" id="freelancers">
 		<div class="service-description__row">
 			<div class="service-description__col">
-				<div class="service-description__img-tablet">
-					<img src="./img/images/tablet.png" alt="Picture of tablet">
+				<div class="service-description__img service-description__img--tablet">
+					<!-- <img class="service-description__img--tablet" src="img/images/tablet.png" alt="Picture of tablet"> -->
 				</div>
 			</div>
 			<div class="service-description__col">
 				<div class="service-description__body">
-					<h2 class="service-description__title heading heading--number heading--number-1">Freelance hosting</h2>
+					<h2 class="service-description__title service-description__title--number service-description__title--number-1 heading">Freelance hosting</h2>
 					<div class="service-description__text">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -228,22 +214,25 @@
 						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
 							pariatur.
 						</p>
+						<a href="#" class="service-description__button-arrow"></a>
 					</div>						
-				</div>
-				<a href="#">
-					<div class="service-description__button-arrow"></div>
-				</a>					
+				</div>									
 			</div>
 		</div>
 	</div>	
 	<!-- / Freelance Hosting -->
 
 	<!-- Startup Hosting-->	
-	<div class="container service-description" id="startups">
+	<div class="service-description" id="startups">
 		<div class="service-description__row">
-			<div class="service-description__col-55">
+			<div class="service-description__col">
+				<div class="service-description__img--rocket">
+					<!-- <img src="./img/images/rocket.png" alt="Picture of rocket"> -->
+				</div>
+			</div>
+			<div class="service-description__col">
 				<div class="service-description__body">
-					<h2 class="service-description__title heading heading--number heading--number-2">Tariff for startups</h2>
+					<h2 class="service-description__title service-description__title--number service-description__title--number-2 heading">Tariff for startups</h2>
 					<div class="service-description__text">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -252,17 +241,11 @@
 						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
 							pariatur.
 						</p>
+						<a class="service-description__button-arrow" href="#"></a>			
 					</div>
 				</div>
-				<a href="#">
-					<div class="service-description__button-arrow"></div>
-				</a>
 			</div>
-			<div class="service-description__col-45">
-				<div class="service-description__img-rocket">
-					<img src="./img/images/rocket.png" alt="Picture of rocket">
-				</div>
-			</div>
+			
 		</div>
 	</div>	
 	<!-- / Startup Hosting-->	

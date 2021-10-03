@@ -11,16 +11,39 @@
 	display: grid;
 	row-gap: 40px;
 }
-.item__image {
-	margin-bottom: 28px;
+.item__image {	
+	margin-bottom: 28px;	
 }
-.item__body {
-	line-height: 24px;
+.item__image--weather {
+	display: inline-block;	
+	width: 127px;
+	height: 97px;
+	background: url('../../img/images/weather.jpg') no-repeat;	 
 }
+.item__image--graph {
+	display: inline-block;	
+	width: 105px;
+	height: 83px;
+	background: url('../../img/images/graph.jpg') no-repeat;	 
+}
+.item__image--flipchart {
+	display: inline-block;	
+	width: 72px;
+	height: 101px;
+	background: url('../../img/images/flipchart.jpg') no-repeat;	 
+}
+.item__image--presentation {
+	display: inline-block;	
+	width: 95px;
+	height:113px;
+	background: url('../../img/images/presentation.jpg') no-repeat;	 
+}
+
 .item__title {
 	margin-bottom: 11px;
 	font-size: 18px;	
 	font-weight: 700;
+	line-height: 1.33;
 	color: #333;
 }
 .item__text {
@@ -28,5 +51,6 @@
 	padding-right: 5px;
 	font-size: 14px;	
 	font-weight: 400;
+	line-height: 1.71;
 	color: #777;
 }
