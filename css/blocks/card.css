@@ -1,0 +1,51 @@
+.card {	
+	padding: 30px 25px 40px;	
+	border-radius: 7px;
+	background-color: #ffffff;
+	color: #242526;
+	box-shadow: 0px 10px 40px 0px rgba(99,117,138,0.3);
+}
+.card__type {
+	font-size: 12px;
+	line-height: 1.2;	
+	text-transform: uppercase;
+	letter-spacing: 0.08em;	
+	margin-bottom: 26px;
+}
+.card__price {	
+	font-size: 48px;
+	font-weight: 700;		
+	color: #242526;	
+	margin-bottom: 7px;
+}
+.card__price::after {
+	content: 'c';
+	font-family: als_rubl, serif;
+	font-weight: 400;
+	margin-left: 4px;
+}
+.card__period {	
+	font-size: 12px;
+	line-height: 2.5;
+	font-weight: 400;
+	letter-spacing: 0.025em;	
+	margin-bottom: 36px;	
+}
+.card__list {
+	margin-bottom: 43px;
+}
+.card__list li {	
+	font-size: var(--fz);
+	line-height: 1.43;	
+	margin-bottom: 10px;
+}
+.card__list li::before {
+	display: inline-block;
+	content: "";
+	width: 12px;
+	height: 8px;
+	background-image: url('../../img/icons/ok-icon.png');
+	background-repeat: no-repeat;
+	background-position: left 0;
+	margin-right: 13px;	
+}

@@ -6,6 +6,9 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,li {
 *,*::before,*::after{
 	box-sizing: border-box;
 }
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+}
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,header,footer,aside{display: block;}

@@ -12,7 +12,7 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.28em;
-	color: #fff;
+	color: var(--white);
 	z-index: 10;	
 }
 .navigation--navy-blue {
@@ -41,7 +41,7 @@
 .menu__list a {
 	display: block;
 	padding: 20px 0 20px 15px;
-	color: #fff;	
+	color: var(--white);	
 }
 .menu__burger {
 	display: flex;

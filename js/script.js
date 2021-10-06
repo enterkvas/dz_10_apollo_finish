@@ -1,11 +1,12 @@
 "use strict";
+// Меню бургер
 const nav = document.querySelector('.navigation');
 const iconBurger = document.querySelector('.menu__burger--button');
 const navList = document.querySelector('.menu__list');
 iconBurger.addEventListener("click", function(e) {	
-	navList.classList.toggle('_active');
+	navList.classList.toggle('_active'); // Меню выезжает
 	navList.classList.toggle('container--mobile-no-padding');
-	nav.classList.toggle('navigation--navy-blue');		
+	nav.classList.toggle('navigation--navy-blue'); 		
 });
 
 // Показ\Скрытие разных текстовок слайдера на разных разрешениях:

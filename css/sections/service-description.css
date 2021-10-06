@@ -36,7 +36,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 1;
-	color: #fff;
+	color: var(--white);
 	top: -40px;
   left: -11px;
 }
@@ -51,7 +51,7 @@
 	padding-left: 9px;
 }
 .service-description__text {
-	font-size: 14px;
+	font-size: var(--fz);
 	line-height: 1.71;	
 	color: #777777;
 }

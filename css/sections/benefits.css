@@ -47,9 +47,8 @@
 	color: #333;
 }
 .item__text {
-	padding-left: 5px;
-	padding-right: 5px;
-	font-size: 14px;	
+	padding: 0 5px;	
+	font-size: var(--fz);	
 	font-weight: 400;
 	line-height: 1.71;
 	color: #777;
