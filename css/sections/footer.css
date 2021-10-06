@@ -1,0 +1,35 @@
+.footer {
+	padding: 16px 0 37px;	
+	background-color: #252525;
+}
+.footer__row {
+	display: grid;
+	row-gap: 17px;
+}
+.footer__title {	
+	font-size: 12px;
+	line-height: 4.75;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.24em;
+	color: #f7f8f9;
+}
+.footer__nav {
+	margin-top: -4px;
+}
+.footer__nav li {
+	font-size: var(--fz);	
+	font-weight: 400;	
+}
+.footer__nav li a {
+	line-height: 2.57;
+	color: #6c6c6c;
+}
+.copyright {
+	width: 140px;
+	margin-top: 25px;
+	font-size: var(--fz);
+	line-height: 1.57;
+	font-weight: 400;
+	color: #6c6c6c;
+}
