@@ -18,3 +18,124 @@
 	background-color: var(--orange);
 	box-shadow: 0px 8px 16px 0px #e9deb9;		
 }
+/* ------------------------ */
+/* Кнопка вверх back_to_top на js Недоработанный варик */
+
+/* .back_to_top { */
+	/* position: fixed;
+	bottom: 80px;
+	right: 40px;
+	z-index: 9999;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #f5f5f5;
+	color: #444;
+	cursor: pointer;
+	border-radius: 2px;
+	display: none; */
+
+	/* position: fixed;
+  bottom: 50px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background: #16385f;
+  z-index: 100;
+  outline: 0 !important;
+	display: none;
+}
+
+.back_to_top:after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 4px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.back_to_top:hover {
+	background: #e9ebec;
+}
+
+.back_to_top-show {
+	display: block;
+} */
+/* ------------------------ */
+
+/* Кнопка "вверх": */
+.btn_up {
+	display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #000;  
+  z-index: 100;
+  outline: 0 !important;
+	background: #fff;	
+}
+	.btn_up::before {
+		content: "";
+		width: 10px;
+		height: 10px;
+		border-top: 2px solid #000;
+		border-right: 2px solid #000;
+		transform: rotate(-45deg);
+		position: absolute;
+		top: -5px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;		
+	}
+  .btn_up::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;		
+  }
+
+  .btn_up.active {
+    /* bottom: 20px; */
+		display: block;
+	}
+	/* @media (min-width: 992px) {
+		.btn_up.active {
+			right: 50px;
+			bottom: 50px;
+		}
+	}
+	@media (min-width: 1200px) {
+		.btn_up.active {
+			right: 100px;
+			bottom: 100px;
+		}
+	}
+	@media (min-width: 1440px) {
+		.btn_up.active {
+			right: 200px;
+			bottom: 200px;
+		}
+	} */
+  
