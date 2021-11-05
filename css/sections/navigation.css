@@ -77,7 +77,6 @@
 	transform: translate(0px, -50%);
 }
 
-
 @media (min-width: 992px) {	
 	.menu__burger {
 		display: none;

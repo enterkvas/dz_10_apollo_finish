@@ -53,3 +53,48 @@
 	line-height: 1.71;
 	color: #777;
 }
+@media (min-width: 768px) {
+	.benefits {	
+		padding-bottom: 56px;		
+	}
+	.benefits__row {
+		display: flex;
+		justify-content: space-around;		
+		flex-wrap: wrap;	
+	}
+	.benefits__col {		
+		width: 350px;
+	}
+	.item__image--graph {
+		margin-top: 14px;
+	}
+	.item__image--flipchart {
+		margin-bottom: 40px;
+	}
+	.item__text {
+		padding: 0 20px;
+		margin: 11px;
+	}
+}
+@media (min-width: 1080px) {
+	.benefits__row {
+		justify-content: space-between;
+		padding: 0 20px;
+	}
+	.benefits__col {		
+		width: 250px;
+	}
+	.item__image--flipchart {
+		margin-bottom: 24px;
+	}
+	.item__image--presentation {
+		margin-bottom: 12px;
+	}
+	.item__text {
+		padding: 0 10px;
+	}
+} @media (min-width: 1200px) {
+	.benefits__col {		
+		flex: 1 1 auto;
+	}
+} 

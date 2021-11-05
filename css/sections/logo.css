@@ -1,9 +1,8 @@
 .logo {
-	padding-top: 101px;
+	padding-top: 100px;
 	padding-bottom: 40px;
 	font-weight: 700;
-	text-transform: uppercase;	
-	outline: 1px solid #666;
+	text-transform: uppercase;
 }
 .logo__header{
 	text-align: center;	

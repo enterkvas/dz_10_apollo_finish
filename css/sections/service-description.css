@@ -2,28 +2,30 @@
   padding: 40px 0;
 	border-bottom: 1px solid #EBF0F6;
 }
-
+.service-description__col {
+	padding: 0 15px;
+}
+.service-description__img {
+	background-size: contain;
+}
 .service-description__img--tablet {
   height: 235px;
   background-image: url("../../img/images/tablet_320.png");
   background-repeat: no-repeat;
-  background-position: center;
 }
-
 .service-description__img--rocket {
-  height: 310px;
-	margin-bottom: 24px;
+  height: 310px;	
+	margin-bottom: 14px;
   background-image: url("../../img/images/rocket_320.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: no-repeat;  
 }
-
 .service-description__body {
-  padding: 0 25px;
+  padding: 0 10px;
 }
 .service-description__title {	
 	position: relative;
-  padding-bottom: 15px;
+  margin-bottom: 24px;
+	line-height: 0.8;
 }
 .service-description__title--number::before {
 	position: absolute;
@@ -37,7 +39,7 @@
 	font-weight: 700;
 	line-height: 1;
 	color: var(--white);
-	top: -40px;
+	top: -48px;
   left: -11px;
 }
 .service-description__title--number-1::before {
@@ -52,18 +54,58 @@
 }
 .service-description__text {
 	font-size: var(--fz);
-	line-height: 1.71;	
+	line-height: 1.75;	
 	color: #777777;
 }
 .service-description__text p {
 	margin-bottom: 22px;
 }
-
+.service-description__text p:last-child {
+	margin-bottom: 0;
+}
 .service-description__button-arrow {
 	display: block;
 	width: 40px;
 	height: 40px;
 	background-image: url('../../img/icons/arrow-orange.png');
-	margin-top: -7px;
-	margin-bottom: 11px;
+	margin-top: 12px;	
+	margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+	.service-description {
+		padding-top: 80px;
+    padding-bottom: 40px;		
+	}
+	.service-description__row {
+		display: flex;
+	}
+	.service-description__col {
+		flex: 1 1 50%;
+	}
+	.service-description__col--1 {
+		order: 1;
+	}
+	.service-description__col--2 {
+		order: 2;
+	}
+	.service-description__img--tablet {
+		background-image: url("../../img/images/tablet_768.png");		
+		background-size: cover;
+	}
+	.service-description__img--rocket {
+		background-image: url("../../img/images/rocket_768.png");		
+		margin-top: -30px;
+		margin-left: -10px; 
+	}
+	.service-description__title {
+		margin-bottom: 23px;
+		line-height: 0.8;
+	}	
+	.service-description__title--number::before {
+		top: -53px;
+	}
+	.service-description__button-arrow {
+		margin-top: 24px;
+	}
 }

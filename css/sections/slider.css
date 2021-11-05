@@ -40,14 +40,26 @@
 .slider-swiper .swiper-button-prev::after,	.slider-swiper .swiper-button-next::after {	
 	display: none;
 }
-@media (min-width: 768px) { 
+@media (min-width: 768px) { 	
 	/* Стрелки */
-	.slider-swiper .swiper-button-prev::after,	.slider-swiper .swiper-button-next::after {
-		display: block;
-		color: var(--white);
+	.slider-swiper .swiper-button-prev {
+		content: '';
+		background-image: url("../../img/icons/arrow-left.png");
+		width: 72px;
+		height: 72px;
+		top: 90px;		
 	}
+	.slider-swiper .swiper-button-next {
+		content: '';
+		background-image: url("../../img/icons/arrow-right.png");
+		width: 72px;
+		height: 72px;
+		top: 90px;
+	}	
+}
+@media (min-width: 992px) {
 	/* Пагинация Буллеты */
 	.slider-swiper .swiper-pagination {	
 		display: none;
-	}
-}
+	}	
+} 

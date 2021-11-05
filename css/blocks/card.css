@@ -49,3 +49,14 @@
 	background-position: left 0;
 	margin-right: 13px;	
 }
+
+@media (min-width: 768px) {
+	.card {
+		padding-top: 36px		;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.card__price {
+		letter-spacing: 1px;
+	}
+}
