@@ -11,7 +11,7 @@
 .service-description__img--tablet {
   height: 235px;
   background-image: url("../../img/images/tablet_320.png");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;	
 }
 .service-description__img--rocket {
   height: 310px;	
@@ -89,14 +89,17 @@
 	.service-description__col--2 {
 		order: 2;
 	}
+	.service-description__img {
+		margin-right: -15px;
+		background-size: contain;
+		height: 100%;
+	}
 	.service-description__img--tablet {
-		background-image: url("../../img/images/tablet_768.png");		
-		background-size: cover;
+		background-image: url("../../img/images/tablet_768.png");	
 	}
 	.service-description__img--rocket {
-		background-image: url("../../img/images/rocket_768.png");		
-		margin-top: -30px;
-		margin-left: -10px; 
+		background-image: url("../../img/images/rocket_768.png");	
+		margin-top: -30px;	
 	}
 	.service-description__title {
 		margin-bottom: 23px;
@@ -109,3 +112,9 @@
 		margin-top: 24px;
 	}
 }
+
+/* @media (min-width: 992px) {
+	.service-description__col {
+		flex: 1 1 50%;
+	}
+} */

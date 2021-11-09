@@ -53,8 +53,8 @@
 @media (min-width: 768px) {
 	.card {
 		padding-top: 36px		;
-		padding-left: 35px;
-		padding-right: 35px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.card__price {
 		letter-spacing: 1px;

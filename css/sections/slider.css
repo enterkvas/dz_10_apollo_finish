@@ -42,15 +42,13 @@
 }
 @media (min-width: 768px) { 	
 	/* Стрелки */
-	.slider-swiper .swiper-button-prev {
-		content: '';
+	.slider-swiper .swiper-button-prev {		
 		background-image: url("../../img/icons/arrow-left.png");
 		width: 72px;
 		height: 72px;
 		top: 90px;		
 	}
-	.slider-swiper .swiper-button-next {
-		content: '';
+	.slider-swiper .swiper-button-next {		
 		background-image: url("../../img/icons/arrow-right.png");
 		width: 72px;
 		height: 72px;
@@ -58,8 +56,42 @@
 	}	
 }
 @media (min-width: 992px) {
+	.slider {
+		padding-top: 80px;
+		padding-bottom: 0;
+	}		
+	.slider-swiper__title {
+		margin-bottom: 19px;
+		font-size: 32px;
+		line-height: 1.31;
+	}
+	.slider-swiper__subtitle {
+		font-size: 22px;
+		line-height: 1.45;
+	}
 	/* Пагинация Буллеты */
 	.slider-swiper .swiper-pagination {	
 		display: none;
-	}	
+	}
+	.slider-swiper .swiper-button-next {
+		top: 78px;
+	}
+	.slider-swiper .swiper-button-prev {
+		top: 78px;
+	}
 } 
+
+@media (min-width: 1200px) {
+	.slider {
+		padding-top: 100px;
+		padding-bottom: 30px;
+	}
+	.slider-swiper .swiper-button-prev {
+		top: 70px;
+		left: 0;
+	}
+	.slider-swiper .swiper-button-next {
+		top: 70px;
+		right: 0;
+	}
+}

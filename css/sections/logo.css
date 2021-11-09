@@ -18,3 +18,19 @@
 	letter-spacing: 0.77em;
 	color: #a1bbd9;
 }
+
+@media (min-width: 992px) {
+	.logo {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.logo__header--title {
+		margin-bottom: 8px;
+		font-size: 38px;
+		letter-spacing: 0.25em
+	}
+	.logo__header--subtitle {
+		font-size: 16px;
+		letter-spacing: 0.68em;
+	}
+}

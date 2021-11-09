@@ -17,18 +17,40 @@ if (menuLinks.length > 0) {
 	});
 	function onMenuLinkClick(e) {
 		const menuLink = e.target;
-		navList.classList.toggle('_active');
-		nav.classList.toggle('navigation--navy-blue');		
-		if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
-			const menuBlock = document.querySelector(menuLink.dataset.goto);
-			const menuBlockValue = menuBlock.getBoundingClientRect().top - document.querySelector('.navigation').offsetHeight;;
+		const w = document.body.clientWidth;
+		if (w < 992) {
+			navList.classList.toggle('_active');
+			nav.classList.toggle('navigation--navy-blue');		
+			if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
+				const menuBlock = document.querySelector(menuLink.dataset.goto);
+				const menuBlockValue = menuBlock.getBoundingClientRect().top - document.querySelector('.navigation').offsetHeight;
+				
+				window.scrollTo ({
+					top: menuBlockValue,
+					behavior: "smooth"
+				});
+			}			
+		} else if (w > 991) {			
+			if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {				
+				const menuBlock = document.querySelector(menuLink.dataset.goto);
+				if (window.pageYOffset === 0) {
+					const menuBlockValue = menuBlock.getBoundingClientRect().top;					
 
-			window.scrollTo ({
-				top: menuBlockValue,
-				behavior: "smooth"
-			});
-			e.preventDefault();
-		}
+					window.scrollTo ({
+						top: menuBlockValue,
+						behavior: "smooth"
+					});				
+				} else if (window.pageYOffset > 0) {
+					const menuBlockValue = menuBlock.getBoundingClientRect().top + window.pageYOffset;	
+
+					window.scrollTo ({
+						top: menuBlockValue,
+						behavior: "smooth"
+					});				
+				}				
+			}			
+		}		
+		e.preventDefault();
 	}	
 }
 

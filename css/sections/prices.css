@@ -31,6 +31,10 @@
 	.prices__row {
 		display: flex;
 		justify-content: center;
-		column-gap: 25px;
+		column-gap: 30px;
+	}
+	.prices__col {
+		flex: 1 0 26%;
+		white-space: nowrap;
 	}
 }
