@@ -8,3 +8,10 @@
 .heading::before {
 	margin-top: 5px;
 }
+
+@media (min-width: 992px) {
+	.heading {
+		font-size: 38px;
+		line-height: 1.26;
+	}	
+}

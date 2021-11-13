@@ -119,8 +119,7 @@
     margin: auto;		
   }
 
-  .btn_up.active {
-    /* bottom: 20px; */
+  .btn_up.active {    
 		display: block;
 	}
 	/* @media (min-width: 992px) {

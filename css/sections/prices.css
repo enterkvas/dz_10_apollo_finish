@@ -8,7 +8,7 @@
 }
 .prices__text {
 	font-size: var(--fz);
-	line-height: 1.71;
+	line-height: var(--lh14);
 	font-weight: 400;
 	color: #777777;
 	padding: 0 10px;	
@@ -36,5 +36,18 @@
 	.prices__col {
 		flex: 1 0 26%;
 		white-space: nowrap;
+	}
+}
+
+@media (min-width: 1200px) {
+	.prices {
+		padding-top: 62px;
+		padding-bottom: 90px;
+	}
+	.prices__title {
+		margin-bottom: 20px;		
+	}
+	.prices__text {
+		margin-bottom: 55px;
 	}
 }

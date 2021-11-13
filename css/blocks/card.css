@@ -1,5 +1,5 @@
 .card {	
-	padding: 30px 25px 40px;	
+	padding: 34px 25px 40px;	
 	border-radius: 7px;
 	background-color: #ffffff;
 	color: #242526;
@@ -10,7 +10,7 @@
 	line-height: 1.2;	
 	text-transform: uppercase;
 	letter-spacing: 0.08em;	
-	margin-bottom: 26px;
+	margin-bottom: 27px;
 }
 .card__price {	
 	font-size: 48px;

@@ -1,10 +1,10 @@
 .footer {
-	padding: 16px 0 37px;	
+	padding: 16px 15px 37px;	
 	background-color: #252525;
 }
 .footer__row {
 	display: grid;
-	row-gap: 17px;
+	row-gap: 15px;
 }
 .footer__title {	
 	font-size: 12px;
@@ -22,12 +22,12 @@
 	font-weight: 400;	
 }
 .footer__nav li a {
-	line-height: 2.57;
+	line-height: 2.6;
 	color: #6c6c6c;
 }
 .copyright {
 	width: 140px;
-	margin-top: 25px;
+	margin-top: 26px;
 	font-size: var(--fz);
 	line-height: 1.57;
 	font-weight: 400;
@@ -47,3 +47,13 @@
 		margin-top: 35px;
 	}
 }
+
+@media (min-width: 1200px) {
+	.footer {
+		padding-top: 56px;
+		padding-bottom: 80px;
+	}	
+	.copyright {
+		margin-top: 50px;
+	}
+} 
