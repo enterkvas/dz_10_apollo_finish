@@ -1,15 +1,17 @@
 .service-description {	
-  padding: 40px 0;
+  padding-top: 40px;
+	padding-bottom: 40px;
 	border-bottom: 1px solid #EBF0F6;
 }
-.service-description__img--tablet {	
-  height: 234px;
-	margin-bottom: 12px;	
+.service-description__img {
+	height: 310px;
+}
+.service-description__img--tablet {  
+	margin-bottom: -64px;	
   background-image: url("../../img/images/tablet_320.png");
   background-repeat: no-repeat;	
 }
-.service-description__img--rocket {
-  height: 310px;
+.service-description__img--rocket {  
 	margin-top: 10px;	
 	margin-bottom: 24px;
   background-image: url("../../img/images/rocket_320.png");
@@ -22,6 +24,9 @@
 	position: relative;	
   margin-bottom: 23px;
 	line-height: 0.8;
+}
+.service-description__title--left {
+	margin-left: -2px;
 }
 .service-description__title--number::before {
 	position: absolute;
@@ -68,6 +73,13 @@
 	margin-bottom: 10px;
 }
 
+@media (max-width: 767px) {
+	.service-description-container--no-padding {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
 @media (min-width: 768px) {
 	.service-description {
 		padding-top: 80px;
@@ -84,27 +96,28 @@
 	}
 	.service-description__col--2 {
 		order: 2;
-	}
-	.service-description__img {		
-		background-size: contain;
-		height: 100%;
-	}
-	.service-description__img--tablet {
-		background-image: url("../../img/images/tablet_768.png");	
+	}	
+	.service-description__img--tablet {		
+		margin-bottom: 0;		
+		background-image: url("../../img/images/tablet_768.png");
+		background-position-x: 8px;	
 	}
 	.service-description__img--rocket {
-		background-image: url("../../img/images/rocket_768.png");	
-		margin-top: -30px;	
+		margin-bottom: 0;
+		margin-top: -30px;
+		background-image: url("../../img/images/rocket_768.png");				
 	}
 	.service-description__title {
 		margin-bottom: 23px;
 		line-height: 0.8;
 	}	
 	.service-description__body {
-		padding: 0;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	.service-description__title--number::before {
-		top: -53px;
+		top: -50px;
+		left: -9px;
 	}
 	.service-description__button-arrow {
 		margin-top: 25px;

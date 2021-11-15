@@ -1,5 +1,6 @@
 .footer {
-	padding: 16px 15px 37px;	
+	padding-top: 16px;
+	padding-bottom: 37px;	
 	background-color: #252525;
 }
 .footer__row {
