@@ -3,6 +3,10 @@
 	padding-bottom: 40px;
 	border-bottom: 1px solid #EBF0F6;
 }
+.service-description-container {
+	padding-left: 25px;
+	padding-right: 25px;
+}
 .service-description__img {
 	height: 310px;
 }
@@ -18,7 +22,8 @@
   background-repeat: no-repeat;  
 }
 .service-description__body {
-  padding: 0 25px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 .service-description__title {	
 	position: relative;	
@@ -99,25 +104,32 @@
 	}	
 	.service-description__img--tablet {		
 		margin-bottom: 0;		
-		background-image: url("../../img/images/tablet_768.png");
-		background-position-x: 8px;	
+		background-image: url("../../img/images/tablet_768.png");		
 	}
 	.service-description__img--rocket {
 		margin-bottom: 0;
 		margin-top: -30px;
-		background-image: url("../../img/images/rocket_768.png");				
+		background-image: url("../../img/images/rocket_768.png");
+		background-position-x: right;				
 	}
 	.service-description__title {
 		margin-bottom: 23px;
 		line-height: 0.8;
 	}	
 	.service-description__body {
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 0;
+		padding-right: 0;
+		padding-left: 15px;		
+	}
+	.service-description__col--1 .service-description__body {
+		padding-left: 0;
+	}
+	.service-description__text p {
+		letter-spacing: 0.3px;
 	}
 	.service-description__title--number::before {
 		top: -50px;
-		left: -9px;
+		left: -11px;
 	}
 	.service-description__button-arrow {
 		margin-top: 25px;

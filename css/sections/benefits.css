@@ -4,6 +4,10 @@
 	text-align: center;
 	border-bottom: 1px solid #EBF0F6;
 }
+.benefits-container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 .benefits__title {
 	margin-bottom: 40px;
 }
@@ -56,11 +60,12 @@
 @media (min-width: 768px) {
 	.benefits {	
 		padding-bottom: 56px;		
-	}
+	}	
 	.benefits__row {
 		display: flex;
 		justify-content: space-around;		
-		flex-wrap: wrap;	
+		flex-wrap: wrap;
+		column-gap: 15px;	
 	}
 	.benefits__col {		
 		width: 350px;
