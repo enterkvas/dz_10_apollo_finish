@@ -64,11 +64,11 @@
 	.benefits__row {
 		display: flex;
 		justify-content: space-around;		
-		flex-wrap: wrap;
-		column-gap: 15px;	
+		flex-wrap: wrap;	
+		column-gap: 2%;
 	}
 	.benefits__col {		
-		width: 350px;
+		flex: 0 1 350px;
 	}
 	.item__image--graph {
 		margin-top: 14px;

@@ -8,10 +8,6 @@
 	background-size: cover;
 	box-shadow: 0px 3px 25px 0px #688ab3;	
 }
-.slider-container {
-	padding-left: 20px;
-	padding-right: 20px;
-}
 .slider-swiper__col {
 	text-align: center;
 }
@@ -44,7 +40,11 @@
 .slider-swiper .swiper-button-prev::after,	.slider-swiper .swiper-button-next::after {	
 	display: none;
 }
-@media (min-width: 768px) { 	
+@media (min-width: 768px) {
+	.slider-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	} 	
 	/* Стрелки */
 	.slider-swiper .swiper-button-prev {		
 		background-image: url("../../img/icons/arrow-left.png");
