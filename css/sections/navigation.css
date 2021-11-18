@@ -1,12 +1,14 @@
 
 .navigation {
+	min-width: 100;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 66px;
 	background-color: #38383a;
-	box-shadow: 0px 5px 10px 0px #2a496d;	
+	box-shadow: 0px 5px 10px 0px #2a496d;
+	transition: all 0.3s ease 0s;	
 	
 	line-height: 1.86;
 	font-weight: 700;
@@ -23,9 +25,7 @@
 	height: 1px;	
 	top: 0;
 	left: -150%;	
-	background-color: #35577d;
-	box-shadow: 0px 5px 10px 0px #2a496d;	
-	transition: all 0.3s ease 0s;	
+	background-color: #35577d;	
 }
 .menu__list._active {
 	left: 0;
@@ -87,7 +87,7 @@
 @media (max-width: 991px) {
 	.navigation-container--no-padding {
 		padding-left: 0;
-		padding-right: 0;
+		padding-right: 0;		
 	}
 }
 
@@ -98,9 +98,11 @@
 		padding-left: 0;
 		padding-right: 0;
 	}	
-	.navigation-container {
+	.navigation-container {		
 		padding-left: 15px;
 		padding-right: 15px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.menu__burger {
 		display: none;		
@@ -114,10 +116,7 @@
 		max-width: 1170px;
 		height: 69px;	
 		padding: 0;
-		margin: 0;
-		/* padding-left: 25px;
-		padding-right: 25px;
-		margin: 0 auto; */
+		margin: 0;		
 		background-color: inherit;
 	}		
 	.menu__list li {
