@@ -3,6 +3,10 @@
 	padding-bottom: 40px;
 	border-bottom: 1px solid #EBF0F6;
 }
+.service-description__container {
+	padding-left: 0;
+	padding-right: 0;
+}
 .service-description__img {
 	height: 310px;
 }
@@ -18,8 +22,8 @@
   background-repeat: no-repeat;  
 }
 .service-description__body {
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .service-description__title {	
 	position: relative;	
@@ -42,7 +46,7 @@
 	line-height: 1;
 	color: var(--white);
 	top: -51px;
-  left: -20px;
+  left: -10px;
 }
 .service-description__title--number-1::before {
 	content: "1";
@@ -61,6 +65,7 @@
 }
 .service-description__text p {
 	margin-bottom: 22px;
+	letter-spacing: 0.3px;
 }
 .service-description__text p:last-child {
 	margin-bottom: 0;
@@ -72,13 +77,6 @@
 	background-image: url('../../img/icons/arrow-orange.png');
 	margin-top: 14px;	
 	margin-bottom: 10px;
-}
-
-@media (max-width: 767px) {
-	.service-description-container--no-padding {
-		padding-left: 0;
-		padding-right: 0;
-	}
 }
 
 @media (min-width: 768px) {
@@ -131,7 +129,7 @@
 		margin-top: 25px;
 	}
 }
-
+/* --- Адаптив блока service-description */
 @media (min-width: 1200px) {
 	.service-description {
 		padding-top: 70px;

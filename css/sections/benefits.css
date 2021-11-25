@@ -1,6 +1,6 @@
 .benefits {
 	padding-top: 34px;
-	padding-bottom: 52px;
+	padding-bottom: 50px;
 	text-align: center;
 	border-bottom: 1px solid #EBF0F6;
 }
@@ -15,6 +15,7 @@
 	display: grid;
 	row-gap: 40px;
 }
+/* ---- item ----- */
 .item__image {	
 	margin-bottom: 28px;	
 }
@@ -33,6 +34,7 @@
 .item__image--flipchart {
 	display: inline-block;	
 	width: 72px;
+	margin-top: -8px;
 	height: 101px;
 	background: url('../../img/images/flipchart.jpg') no-repeat;	 
 }
@@ -40,6 +42,7 @@
 	display: inline-block;	
 	width: 95px;
 	height:113px;
+
 	background: url('../../img/images/presentation.jpg') no-repeat;	 
 }
 .item__title {
@@ -57,6 +60,7 @@
 	line-height: var(--lh14);
 	color: #777;
 }
+/* ------- Адаптив блока benefits ------- */
 @media (min-width: 768px) {
 	.benefits {	
 		padding-bottom: 56px;		
@@ -74,6 +78,7 @@
 		margin-top: 14px;
 	}
 	.item__image--flipchart {
+		margin-top: 0;
 		margin-bottom: 40px;
 	}
 	.item__title {

@@ -4,32 +4,32 @@
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.logo__header{
+.header{
 	text-align: center;	
 	margin-left: 12px;
 }
-.logo__header--title {	
+.header__title {	
 	margin-bottom: 6px;	
 	font-size: 33px;	
 	letter-spacing: 0.32em;
 	color: #000;
 }
-.logo__header--subtitle {	
+.header__subtitle {	
 	letter-spacing: 0.77em;
 	color: #a1bbd9;
 }
-
+/* --- Адаптив блока logo --- */
 @media (min-width: 992px) {
 	.logo {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
-	.logo__header--title {
+	.header__title {
 		margin-bottom: 8px;
 		font-size: 38px;
 		letter-spacing: 0.25em
 	}
-	.logo__header--subtitle {
+	.header__subtitle {
 		font-size: 16px;
 		letter-spacing: 0.68em;
 	}

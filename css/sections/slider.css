@@ -40,10 +40,14 @@
 .slider-swiper .swiper-button-prev::after,	.slider-swiper .swiper-button-next::after {	
 	display: none;
 }
+/* --- Адаптив блока slider --- */
 @media (min-width: 768px) {
 	.slider-container {
+		max-width: 1200px;
 		padding-left: 20px;
 		padding-right: 20px;
+		margin-left: auto;
+		margin-right: auto;
 	} 	
 	/* Стрелки */
 	.slider-swiper .swiper-button-prev {		
@@ -91,6 +95,10 @@
 	.slider {
 		padding-top: 100px;
 		padding-bottom: 30px;
+	}
+	.slider-container {	
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 	.slider-swiper .swiper-button-prev {
 		top: 70px;
