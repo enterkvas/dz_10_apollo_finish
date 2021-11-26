@@ -19,6 +19,11 @@
 	color: #a1bbd9;
 }
 /* --- Адаптив блока logo --- */
+@media (min-width: 768px) {
+	.header__subtitle {	
+		letter-spacing: 0.78em;		
+	}
+}
 @media (min-width: 992px) {
 	.logo {
 		padding-top: 50px;

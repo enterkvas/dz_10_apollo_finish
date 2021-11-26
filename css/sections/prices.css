@@ -21,6 +21,7 @@
 /* --- Адаптив блока prices --- */
 @media (min-width: 768px) {
 	.prices {
+		padding-top: 33px;
 		padding-bottom: 100px;
 	}
 	.prices__text {
