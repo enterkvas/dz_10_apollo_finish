@@ -84,6 +84,10 @@
 		padding-top: 80px;
     padding-bottom: 40px;		
 	}
+	.service-description__container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
 	.service-description__row {
 		display: flex;
 	}
@@ -113,7 +117,7 @@
 	.service-description__body {
 		padding-left: 0;
 		padding-right: 0;
-		padding-left: 15px;		
+		padding-left: 14px;		
 	}
 	.service-description__col--1 .service-description__body {
 		padding-left: 0;
@@ -122,7 +126,7 @@
 		letter-spacing: 0.3px;
 	}
 	.service-description__title--number::before {
-		top: -50px;
+		top: -54px;
 		left: -11px;
 	}
 	.service-description__button-arrow {

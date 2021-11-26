@@ -63,7 +63,7 @@
 /* ------- Адаптив блока benefits ------- */
 @media (min-width: 768px) {
 	.benefits {	
-		padding-bottom: 56px;		
+		padding-bottom: 60px;		
 	}	
 	.benefits__row {
 		display: flex;
